@@ -4325,6 +4325,12 @@ label {
 }
 
 .flow-text {
+  font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #252830;
+    line-height: 1.5;
+    word-spacing: 3px;
   font-weight: 300;
 }
 
