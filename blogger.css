@@ -2334,7 +2334,7 @@ a {
   box-shadow: none !important;
 }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .side-nav {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
 
@@ -2852,7 +2852,7 @@ td, th {
   color: #26a69a;
 }
 
-.collapsible .collection {
+ .collection {
   margin: 0;
   border: none;
 }
@@ -2894,13 +2894,13 @@ nav ul a span.badge {
 }
 
 .side-nav span.badge.new,
-.collapsible span.badge.new {
+  span.badge.new {
   position: relative;
   background-color: transparent;
 }
 
 .side-nav span.badge.new::before,
-.collapsible span.badge.new::before {
+  span.badge.new::before {
   content: '';
   position: absolute;
   top: 10px;
@@ -2912,7 +2912,7 @@ nav ul a span.badge {
   z-index: -1;
 }
 
-.collapsible span.badge.new {
+  span.badge.new {
   z-index: 1;
 }
 
