@@ -4284,7 +4284,18 @@ button.btn-floating {
   z-index: 1000;
   will-change: opacity;
 }
-
+p.caption {
+   color: #9999AA;
+    font-weight: 600;
+    margin-top: 0;
+    padding: 6px 0 20px 0;
+    border-bottom: 1px solid #EEE;
+    margin-bottom: 20px;
+    word-spacing: 3.5px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .materialbox-caption {
   position: fixed;
   display: none;
