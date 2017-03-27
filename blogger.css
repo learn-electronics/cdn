@@ -4196,7 +4196,7 @@ label {
     line-height: 1.5;
     word-spacing: 3px;
   font-weight: 300;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 p.border{
   border-bottom: 1px solid #EEE;
