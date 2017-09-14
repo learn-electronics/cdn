@@ -25,7 +25,7 @@
            
            for(var index = 0; index < numberOfPaginationLinks; index++)
            {
-                paginationContainer.find("ul").append("<li class=<a href='javascript:void(0);' class='waves-effect'>1</a>"+ (index+1) + "</li>");
+                paginationContainer.find("ul").append("<li > <a href='javascript:void(0);' class='waves-effect'>"+ (index+1) + "</a></li>");
            }
            
            itemsToPaginate.filter(":gt(" + (itemsPerPage - 1)  + ")").hide();
