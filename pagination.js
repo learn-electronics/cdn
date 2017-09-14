@@ -25,7 +25,7 @@
            
            for(var index = 0; index < numberOfPaginationLinks; index++)
            {
-                paginationContainer.find("ul").append("<li class='waves-effect'>"+ (index+1) + "</li>");
+                paginationContainer.find("ul").append("<li class=<a href='javascript:void(0);' class='waves-effect'>1</a>"+ (index+1) + "</li>");
            }
            
            itemsToPaginate.filter(":gt(" + (itemsPerPage - 1)  + ")").hide();
@@ -45,7 +45,7 @@
                 
                 var itemsToShow = itemsToPaginate.not(itemsToHide);
 
-                $("html,body").animate({scrollTop:"0px"}, function(){
+                $("html,body").animate({}, function(){
                   itemsToHide.hide();
                   itemsToShow.show();
                 });
